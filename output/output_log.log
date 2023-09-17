@@ -1,0 +1,1495 @@
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Tue Dec  6 16:18:29 2022
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/morris/uvm-1.2/src/uvm.sv'
+Parsing included file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/home/morris/uvm-1.2/src/uvm.sv'.
+Parsing design file '../top.sv'
+Parsing included file '../dut.svp'.
+Back to file '../top.sv'.
+Parsing included file '../types.sv'.
+Back to file '../top.sv'.
+Parsing included file '../seq_item.sv'.
+Back to file '../top.sv'.
+Parsing included file '../sequencer.sv'.
+Back to file '../top.sv'.
+Parsing included file '../uart_driver.sv'.
+Back to file '../top.sv'.
+Parsing included file '../uart_monitor.sv'.
+Back to file '../top.sv'.
+Parsing included file '../uart_agent.sv'.
+Back to file '../top.sv'.
+Parsing included file '../i2c_driver.sv'.
+Back to file '../top.sv'.
+Parsing included file '../i2c_monitor.sv'.
+Back to file '../top.sv'.
+Parsing included file '../i2c_agent.sv'.
+Back to file '../top.sv'.
+Parsing included file '../scoreboard.sv'.
+Back to file '../top.sv'.
+Parsing included file '../env.sv'.
+Back to file '../top.sv'.
+Parsing included file '../seq.sv'.
+Back to file '../top.sv'.
+Parsing included file '../test.sv'.
+Back to file '../top.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+
+8 modules and 0 UDP read.
+recompiling module top
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -z notext -m elf_i386  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -m32 -m32 -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib -L/apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib  -Wl,-rpath-link=./  uvm_dpi.o     _4514_archive_1.so _prev_archive_1.so _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 5.252 seconds to compile + .264 seconds to elab + .260 seconds to link
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Dec  6 16:18 2022
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0.000ns: reporter [RNTST] Running test BridgeTest...
+UVM_INFO ../i2c_driver.sv(38) @ 0.000ns: reporter [scl] Scl rate set to (10133.355ns) 98.684000 Khz
+UVM_INFO ../i2c_driver.sv(38) @ 0.000ns: reporter [scl] Scl rate set to (10133.355ns) 98.684000 Khz
+UVM_INFO ../uart_driver.sv(37) @ 0.000ns: reporter [BAUD] Baud rate set to        9600 (104166.667ns)
+UVM_INFO ../uart_driver.sv(37) @ 0.000ns: reporter [BAUD] Baud rate set to        9600 (104166.667ns)
+------- SEQ 1 --------
+UVM_INFO ../uart_driver.sv(127) @ 200000.000ns: uvm_test_top.env.uartMaster.driver [OK_DETECT_WAIT] UART driver is waiting for 'OK' indication
+UART_RX: start bit @252083.000ns
+UART_RX: 1th-Bit: 0x1 @356250.000ns
+UART_RX: 2th-Bit: 0x1 @460417.000ns
+UART_RX: 3th-Bit: 0x1 @564583.000ns
+UART_RX: 4th-Bit: 0x1 @668750.000ns
+UART_RX: 5th-Bit: 0x0 @772917.000ns
+UART_RX: 6th-Bit: 0x0 @877083.000ns
+UART_RX: 7th-Bit: 0x1 @981250.000ns
+UART_RX: 8th-Bit: 0x0 @1085417.000ns
+UART_RX: Byte: 0x4f (8'b01001111) @1085417.000ns
+UART_RX: stop bit @1189583.000ns
+UART_RX: start bit @1293750.000ns
+UART_RX: 1th-Bit: 0x1 @1397917.000ns
+UART_RX: 2th-Bit: 0x1 @1502083.000ns
+UART_RX: 3th-Bit: 0x0 @1606250.000ns
+UART_RX: 4th-Bit: 0x1 @1710417.000ns
+UART_RX: 5th-Bit: 0x0 @1814583.000ns
+UART_RX: 6th-Bit: 0x0 @1918750.000ns
+UART_RX: 7th-Bit: 0x1 @2022917.000ns
+UART_RX: 8th-Bit: 0x0 @2127083.000ns
+UART_RX: Byte: 0x4b (8'b01001011) @2127083.000ns
+UART_RX: stop bit @2231250.000ns
+UVM_INFO ../scoreboard.sv(46) @ 2231250.000ns: uvm_test_top.env.ScoreboardTop.uartOkScoreboard [UART_OK_CHECK] Received 'OK' sequence
+UVM_INFO ../uart_driver.sv(129) @ 2231250.000ns: uvm_test_top.env.uartMaster.driver [OK_DETECT_WAIT] UART driver received 'OK' indication, now started normal operation
+
+
+
+
+>>>>>>>>>>>>>>>> UART Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+-------------------------------------------------------------------------------------
+Name                           Type          Size  Value                             
+-------------------------------------------------------------------------------------
+uartData                       UartData      -     @1341                             
+  data                         da(integral)  18    -                                 
+    [0]                        integral      8     'hd4                              
+    [1]                        integral      8     'hb4                              
+    [2]                        integral      8     'h81                              
+    [3]                        integral      8     'hef                              
+    [4]                        integral      8     'hb5                              
+    ...                        ...           ...   ...                               
+    [13]                       integral      8     'he2                              
+    [14]                       integral      8     'h60                              
+    [15]                       integral      8     'h2e                              
+    [16]                       integral      8     'ha                               
+    [17]                       integral      8     'hc5                              
+  addr                         integral      7     'h52                              
+  dir                          directionT    32    WRITE                             
+  stopBauds                    integral      32    'hc                               
+  length                       integral      8     'h12                              
+  begin_time                   time          64    2231250.000ns                     
+  depth                        int           32    'd3                               
+  parent sequence (name)       string        7     uartSeq                           
+  parent sequence (full name)  string        34    uvm_test_top.env.vSeqr.seq.uartSeq
+  sequencer                    string        31    uvm_test_top.env.vSeqr.uartSeqr   
+-------------------------------------------------------------------------------------
+UART_TX: sent start bit @2283333.000ns
+UART_TX: sending S_CHAR: 0x53 (8'b01010011) @2283333.000ns
+UART_TX: sent 1th-bit: 1 @2387500.000ns
+UART_TX: sent 2th-bit: 1 @2491667.000ns
+UART_TX: sent 3th-bit: 0 @2595833.000ns
+UART_TX: sent 4th-bit: 0 @2700000.000ns
+UART_TX: sent 5th-bit: 1 @2804167.000ns
+UART_TX: sent 6th-bit: 0 @2908333.000ns
+UART_TX: sent 7th-bit: 1 @3012500.000ns
+UART_TX: sent 8th-bit: 0 @3116667.000ns
+UART_TX: sent stop bit @3220833.000ns
+UART_TX: waiting for          12 bauds @3325000.000ns
+UART_TX: ended waiting for          12 bauds @4575000.000ns
+UART_TX: sent start bit @4627083.000ns
+UART_TX: sending Addr + R/W byte: 0xa4 (8'b10100100) @4627083.000ns
+UART_TX: sent 1th-bit: 0 @4731250.000ns
+UART_TX: sent 2th-bit: 0 @4835417.000ns
+UART_TX: sent 3th-bit: 1 @4939583.000ns
+UART_TX: sent 4th-bit: 0 @5043750.000ns
+UART_TX: sent 5th-bit: 0 @5147917.000ns
+UART_TX: sent 6th-bit: 1 @5252083.000ns
+UART_TX: sent 7th-bit: 0 @5356250.000ns
+UART_TX: sent 8th-bit: 1 @5460417.000ns
+UART_TX: sent stop bit @5564583.000ns
+UART_TX: waiting for          12 bauds @5668750.000ns
+UART_TX: ended waiting for          12 bauds @6918750.000ns
+UART_TX: sent start bit @6970833.000ns
+UART_TX: sending Length field: 18 (8'b00010010) @6970833.000ns
+UART_TX: sent 1th-bit: 0 @7075000.000ns
+UART_TX: sent 2th-bit: 1 @7179167.000ns
+UART_TX: sent 3th-bit: 0 @7283333.000ns
+UART_TX: sent 4th-bit: 0 @7387500.000ns
+UART_TX: sent 5th-bit: 1 @7491666.000ns
+UART_TX: sent 6th-bit: 0 @7595833.000ns
+UART_TX: sent 7th-bit: 0 @7700000.000ns
+UART_TX: sent 8th-bit: 0 @7804166.000ns
+UART_TX: sent stop bit @7908333.000ns
+UART_TX: waiting for          12 bauds @8012500.000ns
+UART_TX: ended waiting for          12 bauds @9262500.000ns
+UART_TX: sent start bit @9314583.000ns
+UART_TX: sending           1th payload byte: 0xd4 (8'b11010100) @9314583.000ns
+UART_TX: sent 1th-bit: 0 @9418750.000ns
+UART_TX: sent 2th-bit: 0 @9522916.000ns
+UART_TX: sent 3th-bit: 1 @9627083.000ns
+UART_TX: sent 4th-bit: 0 @9731250.000ns
+UART_TX: sent 5th-bit: 1 @9835416.000ns
+UART_TX: sent 6th-bit: 0 @9939583.000ns
+UART_TX: sent 7th-bit: 1 @10043750.000ns
+UART_TX: sent 8th-bit: 1 @10147916.000ns
+UART_TX: sent stop bit @10252083.000ns
+UART_TX: waiting for          12 bauds @10356250.000ns
+UART_TX: ended waiting for          12 bauds @11606250.000ns
+UART_TX: sent start bit @11658333.000ns
+UART_TX: sending           2th payload byte: 0xb4 (8'b10110100) @11658333.000ns
+UART_TX: sent 1th-bit: 0 @11762500.000ns
+UART_TX: sent 2th-bit: 0 @11866666.000ns
+UART_TX: sent 3th-bit: 1 @11970833.000ns
+UART_TX: sent 4th-bit: 0 @12075000.000ns
+UART_TX: sent 5th-bit: 1 @12179166.000ns
+UART_TX: sent 6th-bit: 1 @12283333.000ns
+UART_TX: sent 7th-bit: 0 @12387500.000ns
+UART_TX: sent 8th-bit: 1 @12491666.000ns
+UART_TX: sent stop bit @12595833.000ns
+UART_TX: waiting for          12 bauds @12700000.000ns
+UART_TX: ended waiting for          12 bauds @13950000.000ns
+UART_TX: sent start bit @14002083.000ns
+UART_TX: sending           3th payload byte: 0x81 (8'b10000001) @14002083.000ns
+UART_TX: sent 1th-bit: 1 @14106250.000ns
+UART_TX: sent 2th-bit: 0 @14210416.000ns
+UART_TX: sent 3th-bit: 0 @14314583.000ns
+UART_TX: sent 4th-bit: 0 @14418750.000ns
+UART_TX: sent 5th-bit: 0 @14522916.000ns
+UART_TX: sent 6th-bit: 0 @14627083.000ns
+UART_TX: sent 7th-bit: 0 @14731250.000ns
+UART_TX: sent 8th-bit: 1 @14835416.000ns
+UART_TX: sent stop bit @14939583.000ns
+UART_TX: waiting for          12 bauds @15043750.000ns
+UART_TX: ended waiting for          12 bauds @16293750.000ns
+UART_TX: sent start bit @16345833.000ns
+UART_TX: sending           4th payload byte: 0xef (8'b11101111) @16345833.000ns
+UART_TX: sent 1th-bit: 1 @16450000.000ns
+UART_TX: sent 2th-bit: 1 @16554166.000ns
+UART_TX: sent 3th-bit: 1 @16658333.000ns
+UART_TX: sent 4th-bit: 1 @16762500.000ns
+UART_TX: sent 5th-bit: 0 @16866666.000ns
+UART_TX: sent 6th-bit: 1 @16970833.000ns
+UART_TX: sent 7th-bit: 1 @17075000.000ns
+UART_TX: sent 8th-bit: 1 @17179166.000ns
+UART_TX: sent stop bit @17283333.000ns
+UART_TX: waiting for          12 bauds @17387500.000ns
+UART_TX: ended waiting for          12 bauds @18637500.000ns
+UART_TX: sent start bit @18689583.000ns
+UART_TX: sending           5th payload byte: 0xb5 (8'b10110101) @18689583.000ns
+UART_TX: sent 1th-bit: 1 @18793750.000ns
+UART_TX: sent 2th-bit: 0 @18897916.000ns
+UART_TX: sent 3th-bit: 1 @19002083.000ns
+UART_TX: sent 4th-bit: 0 @19106250.000ns
+UART_TX: sent 5th-bit: 1 @19210416.000ns
+UART_TX: sent 6th-bit: 1 @19314583.000ns
+UART_TX: sent 7th-bit: 0 @19418750.000ns
+UART_TX: sent 8th-bit: 1 @19522916.000ns
+UART_TX: sent stop bit @19627083.000ns
+UART_TX: waiting for          12 bauds @19731249.000ns
+UART_TX: ended waiting for          12 bauds @20981249.000ns
+UART_TX: sent start bit @21033333.000ns
+UART_TX: sending           6th payload byte: 0x34 (8'b00110100) @21033333.000ns
+UART_TX: sent 1th-bit: 0 @21137499.000ns
+UART_TX: sent 2th-bit: 0 @21241666.000ns
+UART_TX: sent 3th-bit: 1 @21345833.000ns
+UART_TX: sent 4th-bit: 0 @21449999.000ns
+UART_TX: sent 5th-bit: 1 @21554166.000ns
+UART_TX: sent 6th-bit: 1 @21658333.000ns
+UART_TX: sent 7th-bit: 0 @21762499.000ns
+UART_TX: sent 8th-bit: 0 @21866666.000ns
+UART_TX: sent stop bit @21970833.000ns
+UART_TX: waiting for          12 bauds @22074999.000ns
+UART_TX: ended waiting for          12 bauds @23324999.000ns
+UART_TX: sent start bit @23377083.000ns
+UART_TX: sending           7th payload byte: 0x2d (8'b00101101) @23377083.000ns
+UART_TX: sent 1th-bit: 1 @23481249.000ns
+UART_TX: sent 2th-bit: 0 @23585416.000ns
+UART_TX: sent 3th-bit: 1 @23689583.000ns
+UART_TX: sent 4th-bit: 1 @23793749.000ns
+UART_TX: sent 5th-bit: 0 @23897916.000ns
+UART_TX: sent 6th-bit: 1 @24002083.000ns
+UART_TX: sent 7th-bit: 0 @24106249.000ns
+UART_TX: sent 8th-bit: 0 @24210416.000ns
+UART_TX: sent stop bit @24314583.000ns
+UART_TX: waiting for          12 bauds @24418749.000ns
+UART_TX: ended waiting for          12 bauds @25668749.000ns
+UART_TX: sent start bit @25720833.000ns
+UART_TX: sending           8th payload byte: 0xb9 (8'b10111001) @25720833.000ns
+UART_TX: sent 1th-bit: 1 @25824999.000ns
+UART_TX: sent 2th-bit: 0 @25929166.000ns
+UART_TX: sent 3th-bit: 0 @26033333.000ns
+UART_TX: sent 4th-bit: 1 @26137499.000ns
+UART_TX: sent 5th-bit: 1 @26241666.000ns
+UART_TX: sent 6th-bit: 1 @26345833.000ns
+UART_TX: sent 7th-bit: 0 @26449999.000ns
+UART_TX: sent 8th-bit: 1 @26554166.000ns
+UART_TX: sent stop bit @26658333.000ns
+UART_TX: waiting for          12 bauds @26762499.000ns
+UART_TX: ended waiting for          12 bauds @28012499.000ns
+UART_TX: sent start bit @28064583.000ns
+UART_TX: sending           9th payload byte: 0x97 (8'b10010111) @28064583.000ns
+UART_TX: sent 1th-bit: 1 @28168749.000ns
+UART_TX: sent 2th-bit: 1 @28272916.000ns
+UART_TX: sent 3th-bit: 1 @28377083.000ns
+UART_TX: sent 4th-bit: 0 @28481249.000ns
+UART_TX: sent 5th-bit: 1 @28585416.000ns
+UART_TX: sent 6th-bit: 0 @28689583.000ns
+UART_TX: sent 7th-bit: 0 @28793749.000ns
+UART_TX: sent 8th-bit: 1 @28897916.000ns
+UART_TX: sent stop bit @29002083.000ns
+UART_TX: waiting for          12 bauds @29106249.000ns
+UART_TX: ended waiting for          12 bauds @30356249.000ns
+UART_TX: sent start bit @30408333.000ns
+UART_TX: sending          10th payload byte: 0x3f (8'b00111111) @30408333.000ns
+UART_TX: sent 1th-bit: 1 @30512499.000ns
+UART_TX: sent 2th-bit: 1 @30616666.000ns
+UART_TX: sent 3th-bit: 1 @30720833.000ns
+UART_TX: sent 4th-bit: 1 @30824999.000ns
+UART_TX: sent 5th-bit: 1 @30929166.000ns
+UART_TX: sent 6th-bit: 1 @31033333.000ns
+UART_TX: sent 7th-bit: 0 @31137499.000ns
+UART_TX: sent 8th-bit: 0 @31241666.000ns
+UART_TX: sent stop bit @31345833.000ns
+UART_TX: waiting for          12 bauds @31449999.000ns
+UART_TX: ended waiting for          12 bauds @32699999.000ns
+UART_TX: sent start bit @32752083.000ns
+UART_TX: sending          11th payload byte: 0x1e (8'b00011110) @32752083.000ns
+UART_TX: sent 1th-bit: 0 @32856249.000ns
+UART_TX: sent 2th-bit: 1 @32960416.000ns
+UART_TX: sent 3th-bit: 1 @33064583.000ns
+UART_TX: sent 4th-bit: 1 @33168749.000ns
+UART_TX: sent 5th-bit: 1 @33272916.000ns
+UART_TX: sent 6th-bit: 0 @33377082.000ns
+UART_TX: sent 7th-bit: 0 @33481249.000ns
+UART_TX: sent 8th-bit: 0 @33585416.000ns
+UART_TX: sent stop bit @33689582.000ns
+UART_TX: waiting for          12 bauds @33793749.000ns
+UART_TX: ended waiting for          12 bauds @35043749.000ns
+UART_TX: sent start bit @35095832.000ns
+UART_TX: sending          12th payload byte: 0xea (8'b11101010) @35095832.000ns
+UART_TX: sent 1th-bit: 0 @35199999.000ns
+UART_TX: sent 2th-bit: 1 @35304166.000ns
+UART_TX: sent 3th-bit: 0 @35408332.000ns
+UART_TX: sent 4th-bit: 1 @35512499.000ns
+UART_TX: sent 5th-bit: 0 @35616666.000ns
+UART_TX: sent 6th-bit: 1 @35720832.000ns
+UART_TX: sent 7th-bit: 1 @35824999.000ns
+UART_TX: sent 8th-bit: 1 @35929166.000ns
+UART_TX: sent stop bit @36033332.000ns
+UART_TX: waiting for          12 bauds @36137499.000ns
+UART_TX: ended waiting for          12 bauds @37387499.000ns
+UART_TX: sent start bit @37439582.000ns
+UART_TX: sending          13th payload byte: 0x05 (8'b00000101) @37439582.000ns
+UART_TX: sent 1th-bit: 1 @37543749.000ns
+UART_TX: sent 2th-bit: 0 @37647916.000ns
+UART_TX: sent 3th-bit: 1 @37752082.000ns
+UART_TX: sent 4th-bit: 0 @37856249.000ns
+UART_TX: sent 5th-bit: 0 @37960416.000ns
+UART_TX: sent 6th-bit: 0 @38064582.000ns
+UART_TX: sent 7th-bit: 0 @38168749.000ns
+UART_TX: sent 8th-bit: 0 @38272916.000ns
+UART_TX: sent stop bit @38377082.000ns
+UART_TX: waiting for          12 bauds @38481249.000ns
+UART_TX: ended waiting for          12 bauds @39731249.000ns
+UART_TX: sent start bit @39783332.000ns
+UART_TX: sending          14th payload byte: 0xe2 (8'b11100010) @39783332.000ns
+UART_TX: sent 1th-bit: 0 @39887499.000ns
+UART_TX: sent 2th-bit: 1 @39991666.000ns
+UART_TX: sent 3th-bit: 0 @40095832.000ns
+UART_TX: sent 4th-bit: 0 @40199999.000ns
+UART_TX: sent 5th-bit: 0 @40304166.000ns
+UART_TX: sent 6th-bit: 1 @40408332.000ns
+UART_TX: sent 7th-bit: 1 @40512499.000ns
+UART_TX: sent 8th-bit: 1 @40616666.000ns
+UART_TX: sent stop bit @40720832.000ns
+UART_TX: waiting for          12 bauds @40824999.000ns
+UART_TX: ended waiting for          12 bauds @42074999.000ns
+UART_TX: sent start bit @42127082.000ns
+UART_TX: sending          15th payload byte: 0x60 (8'b01100000) @42127082.000ns
+UART_TX: sent 1th-bit: 0 @42231249.000ns
+UART_TX: sent 2th-bit: 0 @42335416.000ns
+UART_TX: sent 3th-bit: 0 @42439582.000ns
+UART_TX: sent 4th-bit: 0 @42543749.000ns
+UART_TX: sent 5th-bit: 0 @42647916.000ns
+UART_TX: sent 6th-bit: 1 @42752082.000ns
+UART_TX: sent 7th-bit: 1 @42856249.000ns
+UART_TX: sent 8th-bit: 0 @42960416.000ns
+UART_TX: sent stop bit @43064582.000ns
+UART_TX: waiting for          12 bauds @43168749.000ns
+UART_TX: ended waiting for          12 bauds @44418749.000ns
+UART_TX: sent start bit @44470832.000ns
+UART_TX: sending          16th payload byte: 0x2e (8'b00101110) @44470832.000ns
+UART_TX: sent 1th-bit: 0 @44574999.000ns
+UART_TX: sent 2th-bit: 1 @44679166.000ns
+UART_TX: sent 3th-bit: 1 @44783332.000ns
+UART_TX: sent 4th-bit: 1 @44887499.000ns
+UART_TX: sent 5th-bit: 0 @44991666.000ns
+UART_TX: sent 6th-bit: 1 @45095832.000ns
+UART_TX: sent 7th-bit: 0 @45199999.000ns
+UART_TX: sent 8th-bit: 0 @45304166.000ns
+UART_TX: sent stop bit @45408332.000ns
+UART_TX: waiting for          12 bauds @45512499.000ns
+UART_TX: ended waiting for          12 bauds @46762499.000ns
+UART_TX: sent start bit @46814582.000ns
+UART_TX: sending          17th payload byte: 0x0a (8'b00001010) @46814582.000ns
+UART_TX: sent 1th-bit: 0 @46918749.000ns
+UART_TX: sent 2th-bit: 1 @47022915.000ns
+UART_TX: sent 3th-bit: 0 @47127082.000ns
+UART_TX: sent 4th-bit: 1 @47231249.000ns
+UART_TX: sent 5th-bit: 0 @47335415.000ns
+UART_TX: sent 6th-bit: 0 @47439582.000ns
+UART_TX: sent 7th-bit: 0 @47543749.000ns
+UART_TX: sent 8th-bit: 0 @47647915.000ns
+UART_TX: sent stop bit @47752082.000ns
+UART_TX: waiting for          12 bauds @47856249.000ns
+UART_TX: ended waiting for          12 bauds @49106249.000ns
+UART_TX: sent start bit @49158332.000ns
+UART_TX: sending          18th payload byte: 0xc5 (8'b11000101) @49158332.000ns
+UART_TX: sent 1th-bit: 1 @49262499.000ns
+UART_TX: sent 2th-bit: 0 @49366665.000ns
+UART_TX: sent 3th-bit: 1 @49470832.000ns
+UART_TX: sent 4th-bit: 0 @49574999.000ns
+UART_TX: sent 5th-bit: 0 @49679165.000ns
+UART_TX: sent 6th-bit: 0 @49783332.000ns
+UART_TX: sent 7th-bit: 1 @49887499.000ns
+UART_TX: sent 8th-bit: 1 @49991665.000ns
+I2C received start @50046282.000ns
+UART_TX: sent stop bit @50095832.000ns
+I2C_RX: Received Byte: 0xa4 @50124815.000ns
+I2C_RX: received ACK @50134949.000ns
+UART_TX: waiting for          12 bauds @50199999.000ns
+I2C_RX: Received Byte: 0xd4 @50216015.000ns
+I2C_RX: received ACK @50226149.000ns
+I2C_RX: Received Byte: 0xb4 @50307215.000ns
+I2C_RX: received ACK @50317348.000ns
+I2C_RX: Received Byte: 0x81 @50398415.000ns
+I2C_RX: received ACK @50408548.000ns
+I2C_RX: Received Byte: 0xef @50489615.000ns
+I2C_RX: received ACK @50499748.000ns
+I2C_RX: Received Byte: 0xb5 @50580815.000ns
+I2C_RX: received ACK @50590948.000ns
+I2C_RX: Received Byte: 0x34 @50672015.000ns
+I2C_RX: received NACK @50682148.000ns
+I2C_RX: Received Byte: 0x2d @50763215.000ns
+I2C_RX: received ACK @50773348.000ns
+I2C_RX: Received Byte: 0xb9 @50854414.000ns
+I2C_RX: received ACK @50864548.000ns
+I2C_RX: Received Byte: 0x97 @50945614.000ns
+I2C_RX: received ACK @50955748.000ns
+I2C_RX: Received Byte: 0x3f @51036814.000ns
+I2C_RX: received ACK @51046947.000ns
+I2C_RX: Received Byte: 0x1e @51128014.000ns
+I2C_RX: received ACK @51138147.000ns
+I2C_RX: Received Byte: 0xea @51219214.000ns
+I2C_RX: received ACK @51229347.000ns
+I2C_RX: Received Byte: 0x05 @51310414.000ns
+I2C_RX: received ACK @51320547.000ns
+I2C_RX: Received Byte: 0xe2 @51401614.000ns
+I2C_RX: received ACK @51411747.000ns
+UART_TX: ended waiting for          12 bauds @51449999.000ns
+I2C_RX: Received Byte: 0x60 @51492814.000ns
+UART_TX: sent start bit @51502082.000ns
+UART_TX: sending P_CHAR: 0x50 (8'b01010000) @51502082.000ns
+I2C_RX: received ACK @51502947.000ns
+I2C_RX: Received Byte: 0x2e @51584013.000ns
+I2C_RX: received ACK @51594147.000ns
+UART_TX: sent 1th-bit: 0 @51606249.000ns
+I2C_RX: Received Byte: 0x0a @51675213.000ns
+I2C_RX: received ACK @51685347.000ns
+UART_TX: sent 2th-bit: 0 @51710415.000ns
+I2C_RX: Received Byte: 0xc5 @51766413.000ns
+I2C_RX: received ACK @51776547.000ns
+I2C_RX: received stop @51789213.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Rx I2c Msg -------
+-------------------------------------
+Name        Type          Size  Value
+-------------------------------------
+i2c_rx_msg  Command       -     @1401
+  data      da(integral)  17    -    
+    [0]     integral      8     'hd4 
+    [1]     integral      8     'hb4 
+    [2]     integral      8     'h81 
+    [3]     integral      8     'hef 
+    [4]     integral      8     'hb5 
+    ...     ...           ...   ...  
+    [12]    integral      8     'he2 
+    [13]    integral      8     'h60 
+    [14]    integral      8     'h2e 
+    [15]    integral      8     'ha  
+    [16]    integral      8     'hc5 
+  addr      integral      7     'h52 
+  dir       directionT    32    WRITE
+  length    integral      7     'h11 
+-------------------------------------
+UVM_ERROR ../scoreboard.sv(155) @ 51789213.000ns: uvm_test_top.env.ScoreboardTop.bridgeScoreboard [ERR_I2C_INVALID_RX] I2C sent a read/write request even when no UART read/write request was made
+UART_TX: sent 3th-bit: 0 @51814582.000ns
+UART_TX: sent 4th-bit: 0 @51918749.000ns
+UART_TX: sent 5th-bit: 1 @52022915.000ns
+UART_TX: sent 6th-bit: 0 @52127082.000ns
+UART_TX: sent 7th-bit: 1 @52231249.000ns
+UART_TX: sent 8th-bit: 0 @52335415.000ns
+UART_TX: sent stop bit @52439582.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Tx Uart Msg -------
+--------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+uart_tx_msg  Command       -     @1406
+  data       da(integral)  18    -    
+    [0]      integral      8     'hd4 
+    [1]      integral      8     'hb4 
+    [2]      integral      8     'h81 
+    [3]      integral      8     'hef 
+    [4]      integral      8     'hb5 
+    ...      ...           ...   ...  
+    [13]     integral      8     'he2 
+    [14]     integral      8     'h60 
+    [15]     integral      8     'h2e 
+    [16]     integral      8     'ha  
+    [17]     integral      8     'hc5 
+  addr       integral      7     'h52 
+  dir        directionT    32    WRITE
+  length     integral      7     'h12 
+--------------------------------------
+UART_TX: waiting for          12 bauds @52543749.000ns
+UART_TX: ended waiting for          12 bauds @53793749.000ns
+
+
+<<<<<<<<<<<<<<<< UART Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> UART Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+-------------------------------------------------------------------------------------
+Name                           Type          Size  Value                             
+-------------------------------------------------------------------------------------
+uartData                       UartData      -     @1419                             
+  data                         da(integral)  0     -                                 
+  addr                         integral      7     'h52                              
+  dir                          directionT    32    READ                              
+  stopBauds                    integral      32    'hc                               
+  length                       integral      8     'ha                               
+  begin_time                   time          64    53793749.000ns                    
+  depth                        int           32    'd3                               
+  parent sequence (name)       string        7     uartSeq                           
+  parent sequence (full name)  string        34    uvm_test_top.env.vSeqr.seq.uartSeq
+  sequencer                    string        31    uvm_test_top.env.vSeqr.uartSeqr   
+-------------------------------------------------------------------------------------
+UART_TX: sent start bit @53845832.000ns
+UART_TX: sending S_CHAR: 0x53 (8'b01010011) @53845832.000ns
+UART_TX: sent 1th-bit: 1 @53949999.000ns
+UART_TX: sent 2th-bit: 1 @54054165.000ns
+UART_TX: sent 3th-bit: 0 @54158332.000ns
+UART_TX: sent 4th-bit: 0 @54262499.000ns
+UART_TX: sent 5th-bit: 1 @54366665.000ns
+UART_TX: sent 6th-bit: 0 @54470832.000ns
+UART_TX: sent 7th-bit: 1 @54574999.000ns
+UART_TX: sent 8th-bit: 0 @54679165.000ns
+UART_TX: sent stop bit @54783332.000ns
+UART_TX: waiting for          12 bauds @54887499.000ns
+UART_TX: ended waiting for          12 bauds @56137499.000ns
+UART_TX: sent start bit @56189582.000ns
+UART_TX: sending Addr + R/W byte: 0xa5 (8'b10100101) @56189582.000ns
+UART_TX: sent 1th-bit: 1 @56293749.000ns
+UART_TX: sent 2th-bit: 0 @56397915.000ns
+UART_TX: sent 3th-bit: 1 @56502082.000ns
+UART_TX: sent 4th-bit: 0 @56606249.000ns
+UART_TX: sent 5th-bit: 0 @56710415.000ns
+UART_TX: sent 6th-bit: 1 @56814582.000ns
+UART_TX: sent 7th-bit: 0 @56918749.000ns
+UART_TX: sent 8th-bit: 1 @57022915.000ns
+UART_TX: sent stop bit @57127082.000ns
+UART_TX: waiting for          12 bauds @57231249.000ns
+UART_TX: ended waiting for          12 bauds @58481249.000ns
+UART_TX: sent start bit @58533332.000ns
+UART_TX: sending Length field: 10 (8'b00001010) @58533332.000ns
+UART_TX: sent 1th-bit: 0 @58637499.000ns
+UART_TX: sent 2th-bit: 1 @58741665.000ns
+UART_TX: sent 3th-bit: 0 @58845832.000ns
+UART_TX: sent 4th-bit: 1 @58949999.000ns
+UART_TX: sent 5th-bit: 0 @59054165.000ns
+UART_TX: sent 6th-bit: 0 @59158332.000ns
+UART_TX: sent 7th-bit: 0 @59262498.000ns
+UART_TX: sent 8th-bit: 0 @59366665.000ns
+UART_TX: sent stop bit @59470832.000ns
+UART_TX: waiting for          12 bauds @59574998.000ns
+UART_TX: ended waiting for          12 bauds @60824998.000ns
+UART_TX: sent start bit @60877082.000ns
+UART_TX: sending P_CHAR: 0x50 (8'b01010000) @60877082.000ns
+UART_TX: sent 1th-bit: 0 @60981248.000ns
+UART_TX: sent 2th-bit: 0 @61085415.000ns
+UART_TX: sent 3th-bit: 0 @61189582.000ns
+UART_TX: sent 4th-bit: 0 @61293748.000ns
+UART_TX: sent 5th-bit: 1 @61397915.000ns
+UART_TX: sent 6th-bit: 0 @61502082.000ns
+UART_TX: sent 7th-bit: 1 @61606248.000ns
+UART_TX: sent 8th-bit: 0 @61710415.000ns
+UART_TX: sent stop bit @61814582.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Tx Uart Msg -------
+--------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+uart_tx_msg  Command       -     @1423
+  data       da(integral)  0     -    
+  addr       integral      7     'h52 
+  dir        directionT    32    READ 
+  length     integral      7     'ha  
+--------------------------------------
+UART_TX: waiting for          12 bauds @61918748.000ns
+UART_TX: ended waiting for          12 bauds @63168748.000ns
+
+
+<<<<<<<<<<<<<<<< UART Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+------- SEQ 1 --------
+
+
+
+
+>>>>>>>>>>>>>>>> UART Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+-------------------------------------------------------------------------------------
+Name                           Type          Size  Value                             
+-------------------------------------------------------------------------------------
+uartData                       UartData      -     @1434                             
+  data                         da(integral)  14    -                                 
+    [0]                        integral      8     'h84                              
+    [1]                        integral      8     'hb4                              
+    [2]                        integral      8     'h3                               
+    [3]                        integral      8     'h4b                              
+    [4]                        integral      8     'hda                              
+    ...                        ...           ...   ...                               
+    [9]                        integral      8     'hb8                              
+    [10]                       integral      8     'hf7                              
+    [11]                       integral      8     'hc1                              
+    [12]                       integral      8     'h91                              
+    [13]                       integral      8     'h6a                              
+  addr                         integral      7     'h52                              
+  dir                          directionT    32    WRITE                             
+  stopBauds                    integral      32    'hd                               
+  length                       integral      8     'he                               
+  begin_time                   time          64    63168748.000ns                    
+  depth                        int           32    'd3                               
+  parent sequence (name)       string        7     uartSeq                           
+  parent sequence (full name)  string        34    uvm_test_top.env.vSeqr.seq.uartSeq
+  sequencer                    string        31    uvm_test_top.env.vSeqr.uartSeqr   
+-------------------------------------------------------------------------------------
+UART_TX: sent start bit @63220832.000ns
+UART_TX: sending S_CHAR: 0x53 (8'b01010011) @63220832.000ns
+UART_TX: sent 1th-bit: 1 @63324998.000ns
+UART_TX: sent 2th-bit: 1 @63429165.000ns
+UART_TX: sent 3th-bit: 0 @63533332.000ns
+UART_TX: sent 4th-bit: 0 @63637498.000ns
+UART_TX: sent 5th-bit: 1 @63741665.000ns
+UART_TX: sent 6th-bit: 0 @63845832.000ns
+UART_TX: sent 7th-bit: 1 @63949998.000ns
+UART_TX: sent 8th-bit: 0 @64054165.000ns
+UART_TX: sent stop bit @64158332.000ns
+UART_TX: waiting for          13 bauds @64262498.000ns
+UART_TX: ended waiting for          13 bauds @65616665.000ns
+UART_TX: sent start bit @65668748.000ns
+UART_TX: sending Addr + R/W byte: 0xa4 (8'b10100100) @65668748.000ns
+UART_TX: sent 1th-bit: 0 @65772915.000ns
+UART_TX: sent 2th-bit: 0 @65877082.000ns
+UART_TX: sent 3th-bit: 1 @65981248.000ns
+UART_TX: sent 4th-bit: 0 @66085415.000ns
+UART_TX: sent 5th-bit: 0 @66189582.000ns
+UART_TX: sent 6th-bit: 1 @66293748.000ns
+UART_TX: sent 7th-bit: 0 @66397915.000ns
+UART_TX: sent 8th-bit: 1 @66502082.000ns
+UART_TX: sent stop bit @66606248.000ns
+UART_TX: waiting for          13 bauds @66710415.000ns
+UART_TX: ended waiting for          13 bauds @68064582.000ns
+UART_TX: sent start bit @68116665.000ns
+UART_TX: sending Length field: 14 (8'b00001110) @68116665.000ns
+UART_TX: sent 1th-bit: 0 @68220832.000ns
+UART_TX: sent 2th-bit: 1 @68324998.000ns
+UART_TX: sent 3th-bit: 1 @68429165.000ns
+UART_TX: sent 4th-bit: 1 @68533332.000ns
+UART_TX: sent 5th-bit: 0 @68637498.000ns
+UART_TX: sent 6th-bit: 0 @68741665.000ns
+UART_TX: sent 7th-bit: 0 @68845832.000ns
+UART_TX: sent 8th-bit: 0 @68949998.000ns
+UART_TX: sent stop bit @69054165.000ns
+UART_TX: waiting for          13 bauds @69158332.000ns
+UART_TX: ended waiting for          13 bauds @70512498.000ns
+UART_TX: sent start bit @70564582.000ns
+UART_TX: sending           1th payload byte: 0x84 (8'b10000100) @70564582.000ns
+UART_TX: sent 1th-bit: 0 @70668748.000ns
+UART_TX: sent 2th-bit: 0 @70772915.000ns
+UART_TX: sent 3th-bit: 1 @70877082.000ns
+UART_TX: sent 4th-bit: 0 @70981248.000ns
+UART_TX: sent 5th-bit: 0 @71085415.000ns
+UART_TX: sent 6th-bit: 0 @71189582.000ns
+UART_TX: sent 7th-bit: 0 @71293748.000ns
+UART_TX: sent 8th-bit: 1 @71397915.000ns
+UART_TX: sent stop bit @71502082.000ns
+UART_TX: waiting for          13 bauds @71606248.000ns
+UART_TX: ended waiting for          13 bauds @72960415.000ns
+UART_TX: sent start bit @73012498.000ns
+UART_TX: sending           2th payload byte: 0xb4 (8'b10110100) @73012498.000ns
+UART_TX: sent 1th-bit: 0 @73116665.000ns
+UART_TX: sent 2th-bit: 0 @73220832.000ns
+UART_TX: sent 3th-bit: 1 @73324998.000ns
+UART_TX: sent 4th-bit: 0 @73429165.000ns
+UART_TX: sent 5th-bit: 1 @73533331.000ns
+UART_TX: sent 6th-bit: 1 @73637498.000ns
+UART_TX: sent 7th-bit: 0 @73741665.000ns
+UART_TX: sent 8th-bit: 1 @73845831.000ns
+UART_TX: sent stop bit @73949998.000ns
+UART_TX: waiting for          13 bauds @74054165.000ns
+UART_TX: ended waiting for          13 bauds @75408331.000ns
+UART_TX: sent start bit @75460415.000ns
+UART_TX: sending           3th payload byte: 0x03 (8'b00000011) @75460415.000ns
+UART_TX: sent 1th-bit: 1 @75564581.000ns
+UART_TX: sent 2th-bit: 1 @75668748.000ns
+UART_TX: sent 3th-bit: 0 @75772915.000ns
+UART_TX: sent 4th-bit: 0 @75877081.000ns
+UART_TX: sent 5th-bit: 0 @75981248.000ns
+UART_TX: sent 6th-bit: 0 @76085415.000ns
+UART_TX: sent 7th-bit: 0 @76189581.000ns
+UART_TX: sent 8th-bit: 0 @76293748.000ns
+UART_TX: sent stop bit @76397915.000ns
+UART_TX: waiting for          13 bauds @76502081.000ns
+UART_TX: ended waiting for          13 bauds @77856248.000ns
+UART_TX: sent start bit @77908331.000ns
+UART_TX: sending           4th payload byte: 0x4b (8'b01001011) @77908331.000ns
+UART_TX: sent 1th-bit: 1 @78012498.000ns
+UART_TX: sent 2th-bit: 1 @78116665.000ns
+UART_TX: sent 3th-bit: 0 @78220831.000ns
+UART_TX: sent 4th-bit: 1 @78324998.000ns
+UART_TX: sent 5th-bit: 0 @78429165.000ns
+UART_TX: sent 6th-bit: 0 @78533331.000ns
+UART_TX: sent 7th-bit: 1 @78637498.000ns
+UART_TX: sent 8th-bit: 0 @78741665.000ns
+UART_TX: sent stop bit @78845831.000ns
+UART_TX: waiting for          13 bauds @78949998.000ns
+UART_TX: ended waiting for          13 bauds @80304165.000ns
+UART_TX: sent start bit @80356248.000ns
+UART_TX: sending           5th payload byte: 0xda (8'b11011010) @80356248.000ns
+UART_TX: sent 1th-bit: 0 @80460415.000ns
+UART_TX: sent 2th-bit: 1 @80564581.000ns
+UART_TX: sent 3th-bit: 0 @80668748.000ns
+UART_TX: sent 4th-bit: 1 @80772915.000ns
+UART_TX: sent 5th-bit: 1 @80877081.000ns
+UART_TX: sent 6th-bit: 0 @80981248.000ns
+UART_TX: sent 7th-bit: 1 @81085415.000ns
+UART_TX: sent 8th-bit: 1 @81189581.000ns
+UART_TX: sent stop bit @81293748.000ns
+UART_TX: waiting for          13 bauds @81397915.000ns
+UART_TX: ended waiting for          13 bauds @82752081.000ns
+UART_TX: sent start bit @82804165.000ns
+UART_TX: sending           6th payload byte: 0xb3 (8'b10110011) @82804165.000ns
+UART_TX: sent 1th-bit: 1 @82908331.000ns
+UART_TX: sent 2th-bit: 1 @83012498.000ns
+UART_TX: sent 3th-bit: 0 @83116665.000ns
+UART_TX: sent 4th-bit: 0 @83220831.000ns
+UART_TX: sent 5th-bit: 1 @83324998.000ns
+UART_TX: sent 6th-bit: 1 @83429165.000ns
+UART_TX: sent 7th-bit: 0 @83533331.000ns
+UART_TX: sent 8th-bit: 1 @83637498.000ns
+I2C received start @83692115.000ns
+UART_TX: sent stop bit @83741665.000ns
+I2C_RX: Received Byte: 0xa5 @83770648.000ns
+I2C_RX: received ACK @83780781.000ns
+UART_TX: waiting for          13 bauds @83845831.000ns
+I2C_RX: Received Byte: 0xff @83861848.000ns
+I2C_RX: received ACK @83871981.000ns
+UART_RX: start bit @83931664.000ns
+I2C_RX: Received Byte: 0xff @83953048.000ns
+I2C_RX: received ACK @83963181.000ns
+UART_RX: 1th-Bit: 0x0 @84035831.000ns
+I2C_RX: Received Byte: 0xff @84044248.000ns
+I2C_RX: received ACK @84054381.000ns
+I2C_RX: Received Byte: 0xff @84135447.000ns
+UART_RX: 2th-Bit: 0x0 @84139998.000ns
+I2C_RX: received NACK @84145581.000ns
+I2C_RX: Received Byte: 0xff @84226647.000ns
+I2C_RX: received ACK @84236781.000ns
+UART_RX: 3th-Bit: 0x0 @84244164.000ns
+I2C_RX: Received Byte: 0xff @84317847.000ns
+I2C_RX: received ACK @84327980.000ns
+UART_RX: 4th-Bit: 0x0 @84348331.000ns
+I2C_RX: Received Byte: 0xff @84409047.000ns
+I2C_RX: received ACK @84419180.000ns
+UART_RX: 5th-Bit: 0x0 @84452498.000ns
+I2C_RX: Received Byte: 0xff @84500247.000ns
+I2C_RX: received ACK @84510380.000ns
+UART_RX: 6th-Bit: 0x0 @84556664.000ns
+I2C_RX: Received Byte: 0xff @84591447.000ns
+I2C_RX: received ACK @84601580.000ns
+UART_RX: 7th-Bit: 0x0 @84660831.000ns
+I2C_RX: Received Byte: 0xff @84682647.000ns
+I2C_RX: received NACK @84692780.000ns
+I2C_RX: received stop @84705447.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Rx I2c Msg -------
+-------------------------------------
+Name        Type          Size  Value
+-------------------------------------
+i2c_rx_msg  Command       -     @1438
+  data      da(integral)  8     -    
+    [0]     integral      8     'hff 
+    [1]     integral      8     'hff 
+    [2]     integral      8     'hff 
+    [3]     integral      8     'hff 
+    [4]     integral      8     'hff 
+    [5]     integral      8     'hff 
+    [6]     integral      8     'hff 
+    [7]     integral      8     'hff 
+  addr      integral      7     'h52 
+  dir       directionT    32    READ 
+  length    integral      7     'h8  
+-------------------------------------
+UVM_INFO ../scoreboard.sv(187) @ 84705447.000ns: uvm_test_top.env.ScoreboardTop.bridgeScoreboard [UART_SCOREBOARD] UART read/write request with address:0x00 was properly handed over to the I2C by the bridge
+UART_RX: 8th-Bit: 0x0 @84764998.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @84764998.000ns
+UART_RX: stop bit @84869164.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 84869164.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           1 more bytes
+UART_RX: start bit @84973331.000ns
+UART_RX: 1th-Bit: 0x0 @85077498.000ns
+UART_RX: 2th-Bit: 0x0 @85181664.000ns
+UART_TX: ended waiting for          13 bauds @85199998.000ns
+UART_TX: sent start bit @85252081.000ns
+UART_TX: sending           7th payload byte: 0x26 (8'b00100110) @85252081.000ns
+UART_RX: 3th-Bit: 0x0 @85285831.000ns
+UART_TX: sent 1th-bit: 0 @85356248.000ns
+UART_RX: 4th-Bit: 0x0 @85389998.000ns
+UART_TX: sent 2th-bit: 1 @85460415.000ns
+UART_RX: 5th-Bit: 0x0 @85494164.000ns
+UART_TX: sent 3th-bit: 1 @85564581.000ns
+UART_RX: 6th-Bit: 0x0 @85598331.000ns
+UART_TX: sent 4th-bit: 0 @85668748.000ns
+UART_RX: 7th-Bit: 0x0 @85702498.000ns
+UART_TX: sent 5th-bit: 0 @85772915.000ns
+UART_RX: 8th-Bit: 0x0 @85806664.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @85806664.000ns
+UART_TX: sent 6th-bit: 1 @85877081.000ns
+UART_RX: stop bit @85910831.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 85910831.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           2 more bytes
+UART_TX: sent 7th-bit: 0 @85981248.000ns
+UART_RX: start bit @86014998.000ns
+UART_TX: sent 8th-bit: 0 @86085415.000ns
+UART_RX: 1th-Bit: 0x0 @86119164.000ns
+UART_TX: sent stop bit @86189581.000ns
+UART_RX: 2th-Bit: 0x0 @86223331.000ns
+UART_TX: waiting for          13 bauds @86293748.000ns
+UART_RX: 3th-Bit: 0x0 @86327498.000ns
+UART_RX: 4th-Bit: 0x0 @86431664.000ns
+UART_RX: 5th-Bit: 0x0 @86535831.000ns
+UART_RX: 6th-Bit: 0x0 @86639998.000ns
+UART_RX: 7th-Bit: 0x0 @86744164.000ns
+UART_RX: 8th-Bit: 0x0 @86848331.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @86848331.000ns
+UART_RX: stop bit @86952498.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 86952498.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           3 more bytes
+UART_RX: start bit @87056664.000ns
+UART_RX: 1th-Bit: 0x0 @87160831.000ns
+UART_RX: 2th-Bit: 0x0 @87264998.000ns
+UART_RX: 3th-Bit: 0x0 @87369164.000ns
+UART_RX: 4th-Bit: 0x0 @87473331.000ns
+UART_RX: 5th-Bit: 0x0 @87577498.000ns
+UART_TX: ended waiting for          13 bauds @87647915.000ns
+UART_RX: 6th-Bit: 0x0 @87681664.000ns
+UART_TX: sent start bit @87699998.000ns
+UART_TX: sending           8th payload byte: 0x65 (8'b01100101) @87699998.000ns
+UART_RX: 7th-Bit: 0x0 @87785831.000ns
+UART_TX: sent 1th-bit: 1 @87804165.000ns
+UART_RX: 8th-Bit: 0x0 @87889998.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @87889998.000ns
+UART_TX: sent 2th-bit: 0 @87908331.000ns
+UART_RX: stop bit @87994164.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 87994164.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           4 more bytes
+UART_TX: sent 3th-bit: 1 @88012498.000ns
+UART_RX: start bit @88098331.000ns
+UART_TX: sent 4th-bit: 0 @88116664.000ns
+UART_RX: 1th-Bit: 0x0 @88202498.000ns
+UART_TX: sent 5th-bit: 0 @88220831.000ns
+UART_RX: 2th-Bit: 0x0 @88306665.000ns
+UART_TX: sent 6th-bit: 1 @88324998.000ns
+UART_RX: 3th-Bit: 0x0 @88410831.000ns
+UART_TX: sent 7th-bit: 1 @88429164.000ns
+UART_RX: 4th-Bit: 0x0 @88514998.000ns
+UART_TX: sent 8th-bit: 0 @88533331.000ns
+UART_RX: 5th-Bit: 0x0 @88619164.000ns
+UART_TX: sent stop bit @88637498.000ns
+UART_RX: 6th-Bit: 0x0 @88723331.000ns
+UART_TX: waiting for          13 bauds @88741664.000ns
+UART_RX: 7th-Bit: 0x0 @88827498.000ns
+UART_RX: 8th-Bit: 0x0 @88931664.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @88931664.000ns
+UART_RX: stop bit @89035831.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 89035831.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           5 more bytes
+UART_RX: start bit @89139998.000ns
+UART_RX: 1th-Bit: 0x0 @89244165.000ns
+UART_RX: 2th-Bit: 0x0 @89348331.000ns
+UART_RX: 3th-Bit: 0x0 @89452498.000ns
+UART_RX: 4th-Bit: 0x0 @89556665.000ns
+UART_RX: 5th-Bit: 0x0 @89660831.000ns
+UART_RX: 6th-Bit: 0x0 @89764998.000ns
+UART_RX: 7th-Bit: 0x0 @89869165.000ns
+UART_RX: 8th-Bit: 0x0 @89973331.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @89973331.000ns
+UART_RX: stop bit @90077498.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 90077498.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           6 more bytes
+UART_TX: ended waiting for          13 bauds @90095831.000ns
+UART_TX: sent start bit @90147914.000ns
+UART_TX: sending           9th payload byte: 0x92 (8'b10010010) @90147914.000ns
+UART_RX: start bit @90181665.000ns
+UART_TX: sent 1th-bit: 0 @90252081.000ns
+UART_RX: 1th-Bit: 0x0 @90285831.000ns
+UART_TX: sent 2th-bit: 1 @90356248.000ns
+UART_RX: 2th-Bit: 0x0 @90389998.000ns
+UART_TX: sent 3th-bit: 0 @90460414.000ns
+UART_RX: 3th-Bit: 0x0 @90494165.000ns
+UART_TX: sent 4th-bit: 0 @90564581.000ns
+UART_RX: 4th-Bit: 0x0 @90598331.000ns
+UART_TX: sent 5th-bit: 1 @90668748.000ns
+UART_RX: 5th-Bit: 0x0 @90702498.000ns
+UART_TX: sent 6th-bit: 0 @90772914.000ns
+UART_RX: 6th-Bit: 0x0 @90806665.000ns
+UART_TX: sent 7th-bit: 0 @90877081.000ns
+UART_RX: 7th-Bit: 0x0 @90910831.000ns
+UART_TX: sent 8th-bit: 1 @90981248.000ns
+UART_RX: 8th-Bit: 0x0 @91014998.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @91014998.000ns
+UART_TX: sent stop bit @91085414.000ns
+UART_RX: stop bit @91119165.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 91119165.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           7 more bytes
+UART_TX: waiting for          13 bauds @91189581.000ns
+UART_RX: start bit @91223331.000ns
+UART_RX: 1th-Bit: 0x0 @91327498.000ns
+UART_RX: 2th-Bit: 0x0 @91431665.000ns
+UART_RX: 3th-Bit: 0x0 @91535831.000ns
+UART_RX: 4th-Bit: 0x0 @91639998.000ns
+UART_RX: 5th-Bit: 0x0 @91744165.000ns
+UART_RX: 6th-Bit: 0x0 @91848331.000ns
+UART_RX: 7th-Bit: 0x0 @91952498.000ns
+UART_RX: 8th-Bit: 0x0 @92056665.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @92056665.000ns
+UART_RX: stop bit @92160831.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 92160831.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           8 more bytes
+UART_RX: start bit @92264998.000ns
+UART_RX: 1th-Bit: 0x0 @92369165.000ns
+UART_RX: 2th-Bit: 0x0 @92473331.000ns
+UART_TX: ended waiting for          13 bauds @92543748.000ns
+UART_RX: 3th-Bit: 0x0 @92577498.000ns
+UART_TX: sent start bit @92595831.000ns
+UART_TX: sending          10th payload byte: 0xb8 (8'b10111000) @92595831.000ns
+UART_RX: 4th-Bit: 0x0 @92681665.000ns
+UART_TX: sent 1th-bit: 0 @92699998.000ns
+UART_RX: 5th-Bit: 0x0 @92785831.000ns
+UART_TX: sent 2th-bit: 0 @92804164.000ns
+UART_RX: 6th-Bit: 0x0 @92889998.000ns
+UART_TX: sent 3th-bit: 0 @92908331.000ns
+UART_RX: 7th-Bit: 0x0 @92994165.000ns
+UART_TX: sent 4th-bit: 1 @93012498.000ns
+UART_RX: 8th-Bit: 0x0 @93098331.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @93098331.000ns
+UART_TX: sent 5th-bit: 1 @93116664.000ns
+UART_RX: stop bit @93202498.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 93202498.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received           9 more bytes
+UART_TX: sent 6th-bit: 1 @93220831.000ns
+UART_RX: start bit @93306665.000ns
+UART_TX: sent 7th-bit: 0 @93324998.000ns
+UART_RX: 1th-Bit: 0x0 @93410831.000ns
+UART_TX: sent 8th-bit: 1 @93429164.000ns
+UART_RX: 2th-Bit: 0x0 @93514998.000ns
+UART_TX: sent stop bit @93533331.000ns
+UART_RX: 3th-Bit: 0x0 @93619165.000ns
+UART_TX: waiting for          13 bauds @93637498.000ns
+UART_RX: 4th-Bit: 0x0 @93723331.000ns
+UART_RX: 5th-Bit: 0x0 @93827498.000ns
+UART_RX: 6th-Bit: 0x0 @93931665.000ns
+UART_RX: 7th-Bit: 0x0 @94035831.000ns
+UART_RX: 8th-Bit: 0x0 @94139998.000ns
+UART_RX: Byte: 0x00 (8'b00000000) @94139998.000ns
+UART_RX: stop bit @94244165.000ns
+UVM_ERROR ../scoreboard.sv(111) @ 94244165.000ns: uvm_test_top.env.ScoreboardTop.UartByteScoreboard [ERR_UART_RX_PAYLOAD_OVERFLOW] Expected payload bytes:           0, but current stream received          10 more bytes
+UART_TX: ended waiting for          13 bauds @94991664.000ns
+UART_TX: sent start bit @95043748.000ns
+UART_TX: sending          11th payload byte: 0xf7 (8'b11110111) @95043748.000ns
+UART_TX: sent 1th-bit: 1 @95147914.000ns
+UART_TX: sent 2th-bit: 1 @95252081.000ns
+UART_TX: sent 3th-bit: 1 @95356248.000ns
+UART_TX: sent 4th-bit: 0 @95460414.000ns
+UART_TX: sent 5th-bit: 1 @95564581.000ns
+UART_TX: sent 6th-bit: 1 @95668748.000ns
+UART_TX: sent 7th-bit: 1 @95772914.000ns
+UART_TX: sent 8th-bit: 1 @95877081.000ns
+UART_TX: sent stop bit @95981248.000ns
+UART_TX: waiting for          13 bauds @96085414.000ns
+UART_TX: ended waiting for          13 bauds @97439581.000ns
+UART_TX: sent start bit @97491664.000ns
+UART_TX: sending          12th payload byte: 0xc1 (8'b11000001) @97491664.000ns
+UART_TX: sent 1th-bit: 1 @97595831.000ns
+UART_TX: sent 2th-bit: 0 @97699998.000ns
+UART_TX: sent 3th-bit: 0 @97804164.000ns
+UART_TX: sent 4th-bit: 0 @97908331.000ns
+UART_TX: sent 5th-bit: 0 @98012498.000ns
+UART_TX: sent 6th-bit: 0 @98116664.000ns
+UART_TX: sent 7th-bit: 1 @98220831.000ns
+UART_TX: sent 8th-bit: 1 @98324998.000ns
+UART_TX: sent stop bit @98429164.000ns
+UART_TX: waiting for          13 bauds @98533331.000ns
+UART_TX: ended waiting for          13 bauds @99887498.000ns
+UART_TX: sent start bit @99939581.000ns
+UART_TX: sending          13th payload byte: 0x91 (8'b10010001) @99939581.000ns
+UART_TX: sent 1th-bit: 1 @100043748.000ns
+UART_TX: sent 2th-bit: 0 @100147914.000ns
+UART_TX: sent 3th-bit: 0 @100252081.000ns
+UART_TX: sent 4th-bit: 0 @100356248.000ns
+UART_TX: sent 5th-bit: 1 @100460414.000ns
+UART_TX: sent 6th-bit: 0 @100564581.000ns
+UART_TX: sent 7th-bit: 0 @100668748.000ns
+UART_TX: sent 8th-bit: 1 @100772914.000ns
+UART_TX: sent stop bit @100877081.000ns
+UART_TX: waiting for          13 bauds @100981248.000ns
+UART_TX: ended waiting for          13 bauds @102335414.000ns
+UART_TX: sent start bit @102387498.000ns
+UART_TX: sending          14th payload byte: 0x6a (8'b01101010) @102387498.000ns
+UART_TX: sent 1th-bit: 0 @102491664.000ns
+UART_TX: sent 2th-bit: 1 @102595831.000ns
+UART_TX: sent 3th-bit: 0 @102699997.000ns
+UART_TX: sent 4th-bit: 1 @102804164.000ns
+UART_TX: sent 5th-bit: 0 @102908331.000ns
+UART_TX: sent 6th-bit: 1 @103012497.000ns
+UART_TX: sent 7th-bit: 1 @103116664.000ns
+UART_TX: sent 8th-bit: 0 @103220831.000ns
+UART_TX: sent stop bit @103324997.000ns
+UART_TX: waiting for          13 bauds @103429164.000ns
+UART_TX: ended waiting for          13 bauds @104783331.000ns
+UART_TX: sent start bit @104835414.000ns
+UART_TX: sending P_CHAR: 0x50 (8'b01010000) @104835414.000ns
+UART_TX: sent 1th-bit: 0 @104939581.000ns
+UART_TX: sent 2th-bit: 0 @105043747.000ns
+UART_TX: sent 3th-bit: 0 @105147914.000ns
+UART_TX: sent 4th-bit: 0 @105252081.000ns
+UART_TX: sent 5th-bit: 1 @105356247.000ns
+UART_TX: sent 6th-bit: 0 @105460414.000ns
+UART_TX: sent 7th-bit: 1 @105564581.000ns
+UART_TX: sent 8th-bit: 0 @105668747.000ns
+UART_TX: sent stop bit @105772914.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Tx Uart Msg -------
+--------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+uart_tx_msg  Command       -     @1464
+  data       da(integral)  14    -    
+    [0]      integral      8     'h84 
+    [1]      integral      8     'hb4 
+    [2]      integral      8     'h3  
+    [3]      integral      8     'h4b 
+    [4]      integral      8     'hda 
+    ...      ...           ...   ...  
+    [9]      integral      8     'hb8 
+    [10]     integral      8     'hf7 
+    [11]     integral      8     'hc1 
+    [12]     integral      8     'h91 
+    [13]     integral      8     'h6a 
+  addr       integral      7     'h52 
+  dir        directionT    32    WRITE
+  length     integral      7     'he  
+--------------------------------------
+UART_TX: waiting for          13 bauds @105877081.000ns
+UART_TX: ended waiting for          13 bauds @107231247.000ns
+
+
+<<<<<<<<<<<<<<<< UART Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> UART Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+-------------------------------------------------------------------------------------
+Name                           Type          Size  Value                             
+-------------------------------------------------------------------------------------
+uartData                       UartData      -     @1475                             
+  data                         da(integral)  0     -                                 
+  addr                         integral      7     'h52                              
+  dir                          directionT    32    READ                              
+  stopBauds                    integral      32    'hd                               
+  length                       integral      8     'h5                               
+  begin_time                   time          64    107231247.000ns                   
+  depth                        int           32    'd3                               
+  parent sequence (name)       string        7     uartSeq                           
+  parent sequence (full name)  string        34    uvm_test_top.env.vSeqr.seq.uartSeq
+  sequencer                    string        31    uvm_test_top.env.vSeqr.uartSeqr   
+-------------------------------------------------------------------------------------
+UART_TX: sent start bit @107283331.000ns
+UART_TX: sending S_CHAR: 0x53 (8'b01010011) @107283331.000ns
+UART_TX: sent 1th-bit: 1 @107387497.000ns
+UART_TX: sent 2th-bit: 1 @107491664.000ns
+UART_TX: sent 3th-bit: 0 @107595831.000ns
+UART_TX: sent 4th-bit: 0 @107699997.000ns
+UART_TX: sent 5th-bit: 1 @107804164.000ns
+UART_TX: sent 6th-bit: 0 @107908331.000ns
+UART_TX: sent 7th-bit: 1 @108012497.000ns
+UART_TX: sent 8th-bit: 0 @108116664.000ns
+UART_TX: sent stop bit @108220831.000ns
+UART_TX: waiting for          13 bauds @108324997.000ns
+UART_TX: ended waiting for          13 bauds @109679164.000ns
+UART_TX: sent start bit @109731247.000ns
+UART_TX: sending Addr + R/W byte: 0xa5 (8'b10100101) @109731247.000ns
+UART_TX: sent 1th-bit: 1 @109835414.000ns
+UART_TX: sent 2th-bit: 0 @109939581.000ns
+UART_TX: sent 3th-bit: 1 @110043747.000ns
+UART_TX: sent 4th-bit: 0 @110147914.000ns
+UART_TX: sent 5th-bit: 0 @110252081.000ns
+UART_TX: sent 6th-bit: 1 @110356247.000ns
+UART_TX: sent 7th-bit: 0 @110460414.000ns
+UART_TX: sent 8th-bit: 1 @110564581.000ns
+UART_TX: sent stop bit @110668747.000ns
+UART_TX: waiting for          13 bauds @110772914.000ns
+UART_TX: ended waiting for          13 bauds @112127081.000ns
+UART_TX: sent start bit @112179164.000ns
+UART_TX: sending Length field: 5 (8'b00000101) @112179164.000ns
+UART_TX: sent 1th-bit: 1 @112283331.000ns
+UART_TX: sent 2th-bit: 0 @112387497.000ns
+UART_TX: sent 3th-bit: 1 @112491664.000ns
+UART_TX: sent 4th-bit: 0 @112595831.000ns
+UART_TX: sent 5th-bit: 0 @112699997.000ns
+UART_TX: sent 6th-bit: 0 @112804164.000ns
+UART_TX: sent 7th-bit: 0 @112908331.000ns
+UART_TX: sent 8th-bit: 0 @113012497.000ns
+UART_TX: sent stop bit @113116664.000ns
+UART_TX: waiting for          13 bauds @113220831.000ns
+UART_TX: ended waiting for          13 bauds @114574997.000ns
+UART_TX: sent start bit @114627081.000ns
+UART_TX: sending P_CHAR: 0x50 (8'b01010000) @114627081.000ns
+UART_TX: sent 1th-bit: 0 @114731247.000ns
+UART_TX: sent 2th-bit: 0 @114835414.000ns
+UART_TX: sent 3th-bit: 0 @114939581.000ns
+UART_TX: sent 4th-bit: 0 @115043747.000ns
+UART_TX: sent 5th-bit: 1 @115147914.000ns
+UART_TX: sent 6th-bit: 0 @115252081.000ns
+UART_TX: sent 7th-bit: 1 @115356247.000ns
+UART_TX: sent 8th-bit: 0 @115460414.000ns
+UART_TX: sent stop bit @115564580.000ns
+
+
+
+--------------------------------------
+------ SCOREBOARD: Tx Uart Msg -------
+--------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+uart_tx_msg  Command       -     @1479
+  data       da(integral)  0     -    
+  addr       integral      7     'h52 
+  dir        directionT    32    READ 
+  length     integral      7     'h5  
+--------------------------------------
+UART_TX: waiting for          13 bauds @115668747.000ns
+UART_TX: ended waiting for          13 bauds @117022914.000ns
+
+
+<<<<<<<<<<<<<<<< UART Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 117272914.000ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 117272914.000ns: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   11
+UVM_WARNING :    0
+UVM_ERROR :   11
+UVM_FATAL :    0
+** Report counts by id
+[BAUD]     2
+[ERR_I2C_INVALID_RX]     1
+[ERR_UART_RX_PAYLOAD_OVERFLOW]    10
+[OK_DETECT_WAIT]     2
+[RNTST]     1
+[TEST_DONE]     1
+[UART_OK_CHECK]     1
+[UART_SCOREBOARD]     1
+[UVM/RELNOTES]     1
+[scl]     2
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time 117272913.830ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 117272913830 ps
+CPU Time:      0.430 seconds;       Data structure size:   0.2Mb
+Tue Dec  6 16:18:38 2022
